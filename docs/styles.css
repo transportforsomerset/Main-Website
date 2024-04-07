@@ -1,1 +1,34 @@
+@font-face {
+  font-family: "AR One Sans";
+  font-display: swap;
+  src:
+    url("AROneSans.ttf");
+}
 
+html, body {  margin: 0; padding: 0; }
+
+body {
+  font-family: "AR One Sans", Georgia;
+  max-width:  850px;
+}
+body > header,
+body > main,
+body > footer {
+  margin:     0;
+  padding:    0 1em;
+}
+body > header, body > footer {
+  background: #006072;
+  color:      white;
+}
+body > header > :first-child,
+body > footer > :last-child {
+  margin: 0;
+}
+
+body > header { border-radius: 0 0 100% 0; padding: 0.5em 6em 0.5em 1em; }
+body > footer { border-radius: 0 100% 0 0; padding: 0.5em 1em; margin-top: 1em; }
+
+body > header a {
+  color: #f0bb35;
+}
